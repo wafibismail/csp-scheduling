@@ -3,6 +3,7 @@
     <style>
       code {
         font-family: Consolas,"courier new";
+        white-space: nowrap;
         padding: 2px;
       }
     </style>
@@ -14,7 +15,7 @@
           VENUE:Lecture Theater | Equipment:None | Capacity=100<br />
           <br />
           TIME|..8:10..|.10-12..|.12-14..|.14-16..|.16-18..|.18-20..|<br />
-          DAY=|========|========|========|========|========|========|<br />
+          DAY |========|========|========|========|========|========|<br />
           Sun |________|________|________|________|________|________|<br />
           Mon |M13|Mr.M|L02|Mr.L|________|M03|Mr.M|________|________|<br />
           Tue |B01|Dr.B|M02|Mr.M|________|L01|Mr.L|M16|Dr.M|________|<br />
