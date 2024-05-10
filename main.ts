@@ -10,7 +10,8 @@ function getClientHtml(domain) {
       <title>Weekly Schedule</title>
       <style>
         button {
-          font-size: 2vw;
+          font-family: Consolas,"courier new";
+          font-size: 6vw;
         }
       </style>
     </head>
