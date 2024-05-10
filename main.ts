@@ -28,7 +28,6 @@ function getClientHtml(domain) {
       <script>
         const ws = new WebSocket("wss://${domain}/");
         const output = document.querySelector("#the_output");
-        output.contentWindow.document.write('${lt}');
         const write = (msg) => {
           output.innerHTML = '<iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>';
           document.querySelector("#the_iframe").contentWindow.document.write(msg);
