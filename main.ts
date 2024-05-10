@@ -1,6 +1,13 @@
 function getClientHtml(domain) {
   return `<html>
-    <head><title>Dashboard</title></head>
+    <head>
+      <title>Dashboard</title>
+      <style>
+        button {
+          font-size: 2vw;
+        }
+      </style>
+    </head>
     <body>
       <div style="display: flex;" id="controls" height="10%" width="100%">
         <button style="flex: 1;" onclick="ws.send(0)">Lecture Theater</button>
