@@ -1,7 +1,7 @@
 function getClientHtml(domain) {
   return `<html>
     <head>
-      <title>Dashboard</title>
+      <title>Weekly Schedule</title>
       <style>
         button {
           font-size: 2vw;
