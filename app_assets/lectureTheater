@@ -18,7 +18,7 @@
           DAY |========|========|========|========|========|========|<br />
           Sun |________|________|________|________|________|________|<br />
           Mon |M13|Mr.M|L02|Mr.L|________|M03|Mr.M|________|________|<br />
-          Tue |B01|Dr.B|M02|Mr.M|________|L01|Mr.L|M13|Dr.M|________|<br />
+          Tue |B01|Dr.B|M02|Mr.M|________|L01|Mr.L|M16|Dr.M|________|<br />
           Wed |M12|Mr.M|A02|Dr.A|M15|Dr.M|________|________|________|<br />
           Thu |C01|Dr.C|A01|Dr.A|M14|Dr.M|M01|Mr.M|________|________|<br />
           Fri |________|________|________|________|________|________|<br />
@@ -40,9 +40,10 @@
           .M02 | Mathematical Methods for Scientists 2<br />
           .M03 | Introductory Calculus................<br />
           .M12 | Combinatorics and Graph Theory.......<br />
-          .M13 | Linear Algebra.......................<br />
+          .M13 | Multivariate Calculus................<br />
           .M14 | Numerical Analysis...................<br />
-          .M15 | Real Analysis........................
+          .M15 | Real Analysis........................<br />
+          .M16 | Linear Algebra.......................
         </code>
       </p>
     </div>
