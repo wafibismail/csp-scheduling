@@ -1,3 +1,9 @@
+const lt = await Deno.readTextFile("./app_assets/lectureTheater");
+const mt = await Deno.readTextFile("./app_assets/miniTheater");
+const bl = await Deno.readTextFile("./app_assets/bioLab");
+const cl1= await Deno.readTextFile("./app_assets/chemLab1");
+const cl2= await Deno.readTextFile("./app_assets/chemLab2");
+
 function getClientHtml(domain) {
   return `<html>
     <head>
@@ -17,13 +23,13 @@ function getClientHtml(domain) {
         <button style="flex: 1;" onclick="ws.send(4)">Chem Lab 2</button>
       </div>
       <div id="the_output" height="90%" width="100%">
-        <iframe id="the_iframe" height="92.5%" width="100%" title="Dashboard"></iframe>
+        <iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule">${lt}</iframe>
       </div>
       <script>
         const ws = new WebSocket("wss://${domain}/");
         const output = document.querySelector("#the_output");
         const write = (msg) => {
-          output.innerHTML = '<iframe id="the_iframe" height="92.5%" width="100%" title="Dashboard"></iframe>';
+          output.innerHTML = '<iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>';
           document.querySelector("#the_iframe").contentWindow.document.write(msg);
         }
         ws.onmessage = (e) => write(e.data);
@@ -32,12 +38,6 @@ function getClientHtml(domain) {
     </body>
   </html>`;
 }
-
-const lt = await Deno.readTextFile("./app_assets/lectureTheater");
-const mt = await Deno.readTextFile("./app_assets/miniTheater");
-const bl = await Deno.readTextFile("./app_assets/bioLab");
-const cl1= await Deno.readTextFile("./app_assets/chemLab1");
-const cl2= await Deno.readTextFile("./app_assets/chemLab2");
 
 Deno.serve((request: Request) => {
   if (request.headers.get("upgrade") === "websocket") {
