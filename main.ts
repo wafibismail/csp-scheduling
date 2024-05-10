@@ -11,7 +11,7 @@ function getClientHtml(domain) {
       <style>
         button {
           font-family: Consolas,"courier new";
-          font-size: 6vw;
+          font-size: 6vh;
         }
       </style>
     </head>

@@ -4,7 +4,7 @@
       code {
         font-family: Consolas,"courier new";
         padding: 2px;
-        font-size: 2.5vh;
+        font-size: 2vh;
       }
     </style>
   </head>
