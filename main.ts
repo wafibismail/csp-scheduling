@@ -23,11 +23,12 @@ function getClientHtml(domain) {
         <button style="flex: 1;" onclick="ws.send(4)">Chem Lab 2</button>
       </div>
       <div id="the_output" height="90%" width="100%">
-        <iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule">${lt}</iframe>
+        <iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>
       </div>
       <script>
         const ws = new WebSocket("wss://${domain}/");
         const output = document.querySelector("#the_output");
+        output.contentWindow.document.write('${lt}');
         const write = (msg) => {
           output.innerHTML = '<iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>';
           document.querySelector("#the_iframe").contentWindow.document.write(msg);
