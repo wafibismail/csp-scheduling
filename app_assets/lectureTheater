@@ -4,7 +4,7 @@
       code {
         font-family: Consolas,"courier new";
         padding: 2px;
-        font-size: 105%;
+        font-size: 120%;
       }
     </style>
   </head>
@@ -22,7 +22,27 @@
           Wed |M12|Mr.M|A02|Dr.A|M15|Dr.M|________|________|________|<br />
           Thu |C01|Dr.C|A01|Dr.A|M14|Dr.M|M01|Mr.M|________|________|<br />
           Fri |________|________|________|________|________|________|<br />
-          Sat |________|________|________|________|________|________|
+          Sat |________|________|________|________|________|________|<br />
+          <br />
+          <br />
+          <br />
+          Modules<br />
+          <br />
+          Code | Name.................................<br />
+          ============================================<br />
+          .A01 | Sociology and Anthropology 1.........<br />
+          .A02 | Sociology and Anthropology 2.........<br />
+          .B01 | Introduction to Biology..............<br />
+          .C01 | Introduction to Chemistry............<br />
+          .L01 | Linguistics 1........................<br />
+          .L02 | Linguistics 2........................<br />
+          .M01 | Mathematical Methods for Scientists 1<br />
+          .M02 | Mathematical Methods for Scientists 2<br />
+          .M03 | Introductory Calculus................<br />
+          .M12 | Combinatorics and Graph Theory.......<br />
+          .M13 | Linear Algebra.......................<br />
+          .M14 | Numerical Analysis...................<br />
+          .M15 | Real Analysis........................
         </code>
       </p>
     </div>
