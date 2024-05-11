@@ -30,7 +30,7 @@
         }
         .scheduleTable {
           .tableHeadingsRow {
-            td {font-size: 1.6vw;}
+            td {font-size: 1.6vw; white-space: nowrap;}
           }
           .slotsRow {
             td {font-size: 1.6vw; font-weight: bold;}
