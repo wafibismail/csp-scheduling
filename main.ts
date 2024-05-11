@@ -12,7 +12,12 @@ function getClientHtml(domain) {
       <style>
         button {
           font-family: Consolas,"courier new";
-          font-size: 2.5vh;
+          font-size: 150%;
+        }
+        @media only screen and (max-width: 840px) {
+          button {
+            font-size: 2.75vw;
+          }
         }
       </style>
     </head>
