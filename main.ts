@@ -7,6 +7,7 @@ const cl2= await Deno.readTextFile("./app_assets/chemLab2");
 function getClientHtml(domain) {
   return `<html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Weekly Schedule</title>
       <style>
         button {
