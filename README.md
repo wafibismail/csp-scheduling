@@ -1,6 +1,6 @@
 <h1 align=center>About</h1>
 <h2 align=center>The Assignment</h2>
-<p align=center>Course scheduling is one of many forms of Constraint Satisfying Problems (CSP). In this assignment, we are tasked to solve it using methods learned in our Intelligent Systems' course</p>
+<p align=center>Course scheduling is one of many forms of Constraint Satisfying Problems (CSP). In this assignment, we are tasked to solve it using methods learned in our Intelligent Systems' course.</p>
 <p align=center>In this solution, the greedy search algorithm is used with the evaluation function of child nodes being</p>
 
 $$f(node) = h_0(node) + h_1(node) + h_2(node) + h_3(node)$$
@@ -21,6 +21,7 @@ $$h_3(node)=\frac{N_{slots|week|total}-N_{slots|week|available}(node)}{N_{slots|
   <tr><td>Depth</td><td>Courses</td></tr>
   <tr><td>Branches</td><td>Possible combination of $venue$ and $available\_timeslots_{teacher \cap venue}$</td></tr>
 </table>
+<p align=center>Additionally, the branch is pruned if its $h_1(node) \lt 0$, to ensure all venues allocated can accomodate all students.</p>
 
 <h2 align=center>The Repository</h2>
 
