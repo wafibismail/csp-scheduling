@@ -13,6 +13,9 @@ function getClientHtml(domain) {
         table {
           td, th {border: 1px solid black;}
           border: 1px solid black;
+          .unallocated {
+            background-color: black;
+          }
         }
         .venueTable {
           text-align: center;

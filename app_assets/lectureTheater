@@ -7,13 +7,13 @@
   <br />
   <table class=scheduleTable>
     <tr class=tableHeadingsRow><th>TIME/<br >DAY</th><td>08:00-10:00</td><td>10:00-12:00</td><td>12:00-14:00</td><td>14:00-16:00</td><td>16:00-18:00</td><td>18:00-20:00</td></tr>
-    <tr class="slotsRow"><th>Sun</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr class="slotsRow"><th>Mon</th><td>M13 | Mr.M</td><td>L02 | Mr.L</td><td></td><td>M03 | Mr.M</td><td></td><td></td></tr>
-    <tr class="slotsRow"><th>Tue</th><td>B01 | Dr B</td><td>M02 | Mr.M</td><td></td><td>L01 | Mr.L</td><td>M16 | Dr.M</td><td></td></tr>
-    <tr class="slotsRow"><th>Wed</th><td>M12 | Mr.M</td><td>A02 | Dr.A</td><td>M15 | Dr.M</td><td></td><td></td><td></td></tr>
-    <tr class="slotsRow"><th>Thu</th><td>C01 | Dr.C</td><td>A01 | Dr.A</td><td>M14 | Dr.M</td><td>M01 | Dr.M</td><td></td><td></td></tr>
-    <tr class="slotsRow"><th>Fri</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr class="slotsRow"><th>Sat</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="slotsRow"><th>Sun</th><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td></tr>
+    <tr class="slotsRow"><th>Mon</th><td>M13 | Mr.M</td><td>L02 | Mr.L</td><td class="unallocated"></td><td>M03 | Mr.M</td><td class="unallocated"></td><td class="unallocated"></td></tr>
+    <tr class="slotsRow"><th>Tue</th><td>B01 | Dr B</td><td>M02 | Mr.M</td><td class="unallocated"></td><td>L01 | Mr.L</td><td>M16 | Dr.M</td><td class="unallocated"></td></tr>
+    <tr class="slotsRow"><th>Wed</th><td>M12 | Mr.M</td><td>A02 | Dr.A</td><td>M15 | Dr.M</td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td></tr>
+    <tr class="slotsRow"><th>Thu</th><td>C01 | Dr.C</td><td>A01 | Dr.A</td><td>M14 | Dr.M</td><td>M01 | Dr.M</td><td class="unallocated"></td><td class="unallocated"></td></tr>
+    <tr class="slotsRow"><th>Fri</th><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td></tr>
+    <tr class="slotsRow"><th>Sat</th><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td><td class="unallocated"></td></tr>
   </table>
   <br />
   <table class=moduleTable>
