@@ -101,7 +101,7 @@ function getClientHtml(domain) {
           }
           .moduleTable {
             th, td {
-              padding: 0.5vw;
+              padding: 0.6vw;
             }
           }
           button {
