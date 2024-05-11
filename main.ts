@@ -20,7 +20,7 @@ function getClientHtml(domain) {
             background-color: beige;
           }
           td {
-            background-color: blanchedAlmond;
+            background-color: blanchedalmond;
           }
         }
         .scheduleTable {
@@ -33,7 +33,7 @@ function getClientHtml(domain) {
               padding-left: 12px;
               padding-right: 12px;
               font-family: "Times New Roman"; font-size: 125%;
-              background-color: blanchedAlmond;
+              background-color: blanchedalmond;
             }
           }
           .slotsRow {
@@ -46,7 +46,7 @@ function getClientHtml(domain) {
               background-color: cornsilk;
             }
             .unallocated {
-              background-color: black;
+              background-color: burlywood;
             }
           }
         }
@@ -57,7 +57,7 @@ function getClientHtml(domain) {
             }
             td {
               font-style: italic;
-              background-color: blanchedAlmond;
+              background-color: blanchedalmond;
             }
           }
           .slotsRow {
