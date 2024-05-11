@@ -14,8 +14,8 @@ function getClientHtml(domain) {
           background-color:floralwhite;
         }
         table {
-          td, th {border: 1px solid chocolate;}
-          border: 1px solid chocolate;
+          td, th {border: 1px solid darkgoldenrod;}
+          border: 1px solid darkgoldenrod;
         }
         .venueTable {
           text-align: center;
