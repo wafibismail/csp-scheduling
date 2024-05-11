@@ -7,13 +7,13 @@ $$f(node) = h_0 + h_1 + h_2 + h_3$$
 
 <p align=center>where</p>
 
-$$h_0=\frac{3\times maxweight-weight}{3\times maxweight}$$
+$$h_0=\frac{3\times maxweight-weight(node)}{3\times maxweight}$$
 
-$$h_1=\frac{2\times quota_{VENUE} - quota_{COURSE}}{2\times quota_{VENUE}}$$
+$$h_1=\frac{2\times quota_{VENUE}(node) - quota_{COURSE}(node)}{2\times quota_{VENUE}(node)}$$
 
-$$h_2=\frac{3\times N_{slots|day|total}- N_{slots|day|available}}{3\times N_{slots|day|total}}$$
+$$h_2=\frac{3\times N_{slots|day|total}- N_{slots|day|available}(node)}{3\times N_{slots|day|total}}$$
 
-$$h_3=\frac{N_{slots|week|total}-N_{slots|week|available}}{N_{slots|week|total}}$$
+$$h_3=\frac{N_{slots|week|total}-N_{slots|week|available}(node)}{N_{slots|week|total}}$$
 
 <p align=center>in tree traversal, without backtracking, with the following shape</p>
 <table align=center>
