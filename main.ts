@@ -13,25 +13,60 @@ function getClientHtml(domain) {
         table {
           td, th {border: 1px solid black;}
           border: 1px solid black;
-          .unallocated {
-            background-color: black;
-          }
         }
         .venueTable {
           text-align: center;
+          th {
+            background-color: beige;
+          }
+          td {
+            background-color: blanchedAlmond;
+          }
         }
         .scheduleTable {
           .tableHeadingsRow {
-            td {font-style: italic; padding-left: 12px; padding-right: 12px; font-family: "Times New Roman"; font-size: 125%;}
+            th {
+              background-color: beige;
+            }
+            td {
+              font-style: italic;
+              padding-left: 12px;
+              padding-right: 12px;
+              font-family: "Times New Roman"; font-size: 125%;
+              background-color: blanchedAlmond;
+            }
           }
           .slotsRow {
             text-align: center;
-            td {font-family: Consolas,"courier new";}
+            th {
+              background-color: antiquewhite;
+            }
+            td {
+              font-family: Consolas,"courier new";
+              background-color: cornsilk;
+            }
+            .unallocated {
+              background-color: black;
+            }
           }
         }
         .moduleTable {
           .tableHeadingsRow {
-            td {font-style: italic;}
+            th {
+              background-color: beige;
+            }
+            td {
+              font-style: italic;
+              background-color: blanchedAlmond;
+            }
+          }
+          .slotsRow {
+            th {
+              background-color: antiquewhite;
+            }
+            td {
+              background-color: cornsilk;
+            }
           }
         }
         button {
