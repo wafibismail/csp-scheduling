@@ -20,16 +20,16 @@ function getClientHtml(domain) {
         .venueTable {
           text-align: center;
           th {
-            background-color: papayawhip;
+            background-color: blanchedalmond;
           }
           td {
-            background-color: blanchedalmond;
+            background-color: papayawhip;
           }
         }
         .scheduleTable {
           .tableHeadingsRow {
             th {
-              background-color: papayawhip;
+              background-color: antiquewhite;
             }
             td {
               font-style: italic;
@@ -42,7 +42,7 @@ function getClientHtml(domain) {
           .slotsRow {
             text-align: center;
             th {
-              background-color: antiquewhite;
+              background-color: papayawhip;
             }
             td {
               font-family: Consolas,"courier new";
@@ -56,7 +56,7 @@ function getClientHtml(domain) {
         .moduleTable {
           .tableHeadingsRow {
             th {
-              background-color: papayawhip;
+              background-color: antiquewhite;
             }
             td {
               font-style: italic;
@@ -65,7 +65,7 @@ function getClientHtml(domain) {
           }
           .slotsRow {
             th {
-              background-color: antiquewhite;
+              background-color: papayawhip;
             }
             td {
               background-color: cornsilk;
