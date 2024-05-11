@@ -19,6 +19,9 @@ function getClientHtml(domain) {
         }
         .venueTable {
           text-align: center;
+          th, td {
+            padding-left: 3px; padding-right: 3px;
+          }
           th {
             background-color: blanchedalmond;
           }
