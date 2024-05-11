@@ -15,7 +15,7 @@
         }
         .slotsRow {
           text-align: center;
-          td {font-family: Consolas,"courier new";}
+          td {font-weight: bold; font-family: Consolas,"courier new";}
         }
       }
       .moduleTable {
