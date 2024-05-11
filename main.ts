@@ -42,7 +42,7 @@ function getClientHtml(domain) {
           }
           .scheduleTable {
             .tableHeadingsRow {
-              td {white-space: nowrap; padding-left: 1.5vw; padding-right: 1.5vw;}
+              td {white-space: nowrap; padding-left: 1.5vw; padding-right: 1.5vw; font-size:1.75vw; font-family:unset}
             }
             .slotsRow {
               td {font-weight: bold;}
