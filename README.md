@@ -30,6 +30,8 @@ $$h_3=\frac{N_{slots|week|total}-N_{slots|week|available}}{N_{slots|week|total}}
   <tr><td>Web-app</td><td>A simple schedule web-app <a href=https://csp-scheduling.deno.dev>(see/try app)</a> making use of the IS model's output<br />Source code in <a href=main.ts>main.ts</a> and <a href=/app_assets>/app_assets</a></tr>
 </table>
 
+<h2 align=center>The Web-App</h2>
+
 <p align=center>
   <a href=https://csp-scheduling.deno.dev><img src=repo_assets/mobileView.gif></a>
 </p>
