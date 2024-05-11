@@ -62,7 +62,7 @@ function getClientHtml(domain) {
         <button style="flex: 1;" onclick="ws.send(3)">Chem Lab 1</button>
         <button style="flex: 1;" onclick="ws.send(4)">Chem Lab 2</button>
       </div>
-      <div id="the_output" height="90%" width="100%">
+      <div align=center id="the_output" height="90%" width="100%">
       </div>
       <script>
         const ws = new WebSocket("wss://${domain}/");

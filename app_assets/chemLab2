@@ -1,70 +1,26 @@
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      table {
-        td, th {border: 1px solid black;}
-        border: 1px solid black;
-      }
-      .venueTable {
-        text-align: center;
-      }
-      .scheduleTable {
-        .tableHeadingsRow {
-          td {font-style: italic; padding-left: 12px; padding-right: 12px;}
-        }
-        .slotsRow {
-          text-align: center;
-          td {font-family: Consolas,"courier new";}
-        }
-      }
-      .moduleTable {
-        .tableHeadingsRow {
-          td {font-style: italic;}
-        }
-      }
-      @media only screen and (max-width: 840px) {
-        th, td {
-          font-size: 1.75vw;
-        }
-        .scheduleTable {
-          .tableHeadingsRow {
-            td {white-space: nowrap; padding-left: 1.5vw; padding-right: 1.5vw;}
-          }
-          .slotsRow {
-            td {font-weight: bold;}
-          }
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div align=center>
-      <p>
-        <table class=venueTable>
-          <tr><th colspan=4>Venue</th></tr>
-          <tr><td colspan=4>Chem Lab 2</td></tr>
-          <tr><th>Equipment</th><td>Chem</td><th>Capacity</th><td>30</td></tr>
-        </table>
-        <br />
-        <table class=scheduleTable>
-          <tr class=tableHeadingsRow><th>TIME/<br >DAY</th><td>08:00-10:00</td><td>10:00-12:00</td><td>12:00-14:00</td><td>14:00-16:00</td><td>16:00-18:00</td><td>18:00-20:00</td></tr>
-          <tr class="slotsRow"><th>Sun</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-          <tr class="slotsRow"><th>Mon</th><td></td><td></td><td></td><td>C32 | Dr.C</td><td></td><td></td></tr>
-          <tr class="slotsRow"><th>Tue</th><td></td><td></td><td></td><td>C31 | Dr.C</td><td></td><td></td></tr>
-          <tr class="slotsRow"><th>Wed</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-          <tr class="slotsRow"><th>Thu</th><td></td><td>C12 | Dr.C</td><td></td><td></td><td></td><td></td></tr>
-          <tr class="slotsRow"><th>Fri</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-          <tr class="slotsRow"><th>Sat</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        </table>
-        <br />
-        <table class=moduleTable>
-          <tr class=tableHeadingsRow><th>Code</th><td>Module</td></tr>
-          <tr class="slotsRow"><th>C11</th><td>Chemistry Intro Lab Group B</td></tr>
-          <tr class="slotsRow"><th>C31</th><td>Organic Chemistry Lab</td></tr>
-          <tr class="slotsRow"><th>C32</th><td>Inorganic Chemistry Lab</td></tr>
-        </table>
-      </p>
-    </div>
-  </body>
-</html>
+<br />
+<p>
+  <table class=venueTable>
+    <tr><th colspan=4>Venue</th></tr>
+    <tr><td colspan=4>Chem Lab 2</td></tr>
+    <tr><th>Equipment</th><td>Chem</td><th>Capacity</th><td>30</td></tr>
+  </table>
+  <br />
+  <table class=scheduleTable>
+    <tr class=tableHeadingsRow><th>TIME/<br >DAY</th><td>08:00-10:00</td><td>10:00-12:00</td><td>12:00-14:00</td><td>14:00-16:00</td><td>16:00-18:00</td><td>18:00-20:00</td></tr>
+    <tr class="slotsRow"><th>Sun</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="slotsRow"><th>Mon</th><td></td><td></td><td></td><td>C32 | Dr.C</td><td></td><td></td></tr>
+    <tr class="slotsRow"><th>Tue</th><td></td><td></td><td></td><td>C31 | Dr.C</td><td></td><td></td></tr>
+    <tr class="slotsRow"><th>Wed</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="slotsRow"><th>Thu</th><td></td><td>C12 | Dr.C</td><td></td><td></td><td></td><td></td></tr>
+    <tr class="slotsRow"><th>Fri</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="slotsRow"><th>Sat</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+  <br />
+  <table class=moduleTable>
+    <tr class=tableHeadingsRow><th>Code</th><td>Module</td></tr>
+    <tr class="slotsRow"><th>C11</th><td>Chemistry Intro Lab Group B</td></tr>
+    <tr class="slotsRow"><th>C31</th><td>Organic Chemistry Lab</td></tr>
+    <tr class="slotsRow"><th>C32</th><td>Inorganic Chemistry Lab</td></tr>
+  </table>
+</p>
