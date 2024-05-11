@@ -3,17 +3,17 @@
 <p align=center>Course scheduling is one of many forms of Constraint Satisfying Problems (CSP). In this assignment, we are tasked to solve it using methods learned in our Intelligent Systems' course</p>
 <p align=center>In this solution, the greedy search algorithm is used with the evaluation function of child nodes being</p>
 
-$$f(node) = h_0 + h_1 + h_2 + h_3$$
+$$f(node) = h_0(node) + h_1(node) + h_2(node) + h_3(node)$$
 
 <p align=center>where</p>
 
-$$h_0=\frac{3\times maxweight-weight(node)}{3\times maxweight}$$
+$$h_0(node)=\frac{3\times maxweight-weight(node)}{3\times maxweight}$$
 
-$$h_1=\frac{2\times quota_{VENUE}(node) - quota_{COURSE}(node)}{2\times quota_{VENUE}(node)}$$
+$$h_1(node)=\frac{2\times quota_{VENUE}(node) - quota_{COURSE}(node)}{2\times quota_{VENUE}(node)}$$
 
-$$h_2=\frac{3\times N_{slots|day|total}- N_{slots|day|available}(node)}{3\times N_{slots|day|total}}$$
+$$h_2(node)=\frac{3\times N_{slots|day|total}- N_{slots|day|available}(node)}{3\times N_{slots|day|total}}$$
 
-$$h_3=\frac{N_{slots|week|total}-N_{slots|week|available}(node)}{N_{slots|week|total}}$$
+$$h_3(node)=\frac{N_{slots|week|total}-N_{slots|week|available}(node)}{N_{slots|week|total}}$$
 
 <p align=center>in tree traversal, without backtracking, with the following shape</p>
 <table align=center>
