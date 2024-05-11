@@ -21,7 +21,7 @@ $$h_3(node)=\frac{N_{slots|week|total}-N_{slots|week|available}(node)}{N_{slots|
   <tr><td>Depth</td><td>Courses</td></tr>
   <tr><td>Branches</td><td>All possible combinations of $venue$ and $available\_timeslots_{teacher \cap venue}$</td></tr>
 </table>
-<p align=center>Additionally, the branch is pruned if its $h_1(node) \lt 0$, to ensure all venues allocated can accomodate all students.</p>
+<p align=center>Additionally, the branch is pruned if its $quota_{VENUE}(node) \lt quota_{COURSE}(node)$, to ensure all venues allocated can accomodate all students.</p>
 
 <h2 align=center>The Repository</h2>
 
