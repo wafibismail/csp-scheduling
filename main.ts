@@ -20,7 +20,7 @@ function getClientHtml(domain) {
         .venueTable {
           text-align: center;
           th {
-            background-color: beige;
+            background-color: papayawhip;
           }
           td {
             background-color: blanchedalmond;
@@ -29,7 +29,7 @@ function getClientHtml(domain) {
         .scheduleTable {
           .tableHeadingsRow {
             th {
-              background-color: beige;
+              background-color: papayawhip;
             }
             td {
               font-style: italic;
@@ -56,7 +56,7 @@ function getClientHtml(domain) {
         .moduleTable {
           .tableHeadingsRow {
             th {
-              background-color: beige;
+              background-color: papayawhip;
             }
             td {
               font-style: italic;
@@ -76,6 +76,7 @@ function getClientHtml(domain) {
           font-family: Consolas,"courier new";
           font-size: 150%;
           font-weight: bold;
+          background-color: linen;
         }
         @media only screen and (max-width: 840px) {
           th, td {
