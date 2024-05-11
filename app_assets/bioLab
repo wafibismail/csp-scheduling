@@ -26,6 +26,12 @@
           td {font-family: Consolas,"courier new";}
         }
       }
+      @media only screen and (max-width: 840px) {
+        th, td {
+          padding: 0px;
+          font-size: 1.75vw;
+        }
+      }
     </style>
   </head>
   <body>
