@@ -77,6 +77,7 @@ function getClientHtml(domain) {
           font-size: 150%;
           font-weight: bold;
           background-color: linen;
+          border-color: cornsilk;
         }
         @media only screen and (max-width: 840px) {
           th, td {
