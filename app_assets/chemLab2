@@ -15,21 +15,26 @@
         }
         .slotsRow {
           text-align: center;
-          td {font-weight: bold; font-family: Consolas,"courier new";}
+          td {font-family: Consolas,"courier new";}
         }
       }
       .moduleTable {
         .tableHeadingsRow {
           td {font-style: italic;}
         }
-        .slotsRow {
-          td {font-family: Consolas,"courier new";}
-        }
       }
       @media only screen and (max-width: 840px) {
         th, td {
           padding: 0px;
           font-size: 1.75vw;
+        }
+        .scheduleTable {
+          .tableHeadingsRow {
+            td {font-size: 1.7vw;}
+          }
+          .slotsRow {
+            td {font-size: 1.7vw;}
+          }
         }
       }
     </style>
