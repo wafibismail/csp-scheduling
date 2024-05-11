@@ -1,4 +1,5 @@
 <h1 align=center>About</h1>
+<h2 align=center>The Assignment</h2>
 <p align=center>Course scheduling is one of many forms of Constraint Satisfying Problems (CSP). In this assignment, we are tasked to solve it using methods learned in our Intelligent Systems' course</p>
 <p align=center>In this solution, the greedy search algorithm is used with the evaluation function of child nodes being</p>
 
@@ -15,12 +16,13 @@ $$h_2=\frac{3\times N_{slots|day|total}- N_{slots|day|available}}{3\times N_{slo
 $$h_3=\frac{N_{slots|week|total}-N_{slots|week|available}}{N_{slots|week|total}}$$
 
 <p align=center>in tree traversal, without backtracking, with the following shape</p>
-
 <table align=center>
   <tr><th>Dimension</th><th>Feature</th></tr>
   <tr><td>Depth</td><td>Courses</td></tr>
   <tr><td>Branches</td><td>Possible combination of $venue$ and $available\_timeslots_{teacher \cap venue}$</td></tr>
 </table>
+
+<h2 align=center>The Repository</h2>
 
 <table align=center>
   <tr><th>Item</th><th>Relevance</th></tr>
