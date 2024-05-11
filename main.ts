@@ -38,11 +38,11 @@ function getClientHtml(domain) {
         }
         @media only screen and (max-width: 840px) {
           th, td {
-            font-size: 1.85vw;
+            font-size: 2vw;
           }
           .scheduleTable {
             .tableHeadingsRow {
-              td {white-space: nowrap; padding-left: 1.5vw; padding-right: 1.5vw; font-size:1.85vw; font-family:unset;}
+              td {white-space: nowrap; padding-left: 1.5vw; padding-right: 1.5vw; font-size:2vw; font-family:unset;}
             }
             .slotsRow {
               td {font-weight: bold;}
