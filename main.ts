@@ -99,6 +99,11 @@ function getClientHtml(domain) {
               td {font-weight: bold;}
             }
           }
+          .moduleTable {
+            th, td {
+              padding: 0.5vw;
+            }
+          }
           button {
             font-size: 2.85vw;
           }
