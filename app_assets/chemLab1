@@ -25,15 +25,14 @@
       }
       @media only screen and (max-width: 840px) {
         th, td {
-          padding: 0px;
           font-size: 1.75vw;
         }
         .scheduleTable {
           .tableHeadingsRow {
-            td {font-size: 1.6vw; white-space: nowrap;}
+            td {white-space: nowrap; padding-left: 1.5vw; padding-right: 1.5vw;}
           }
           .slotsRow {
-            td {font-size: 1.6vw; font-weight: bold;}
+            td {font-weight: bold;}
           }
         }
       }
