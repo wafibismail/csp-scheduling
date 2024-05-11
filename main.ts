@@ -14,8 +14,8 @@ function getClientHtml(domain) {
           background-color:floralwhite;
         }
         table {
-          td, th {border: 1px solid black;}
-          border: 1px solid black;
+          td, th {border: 1px solid chocolate;}
+          border: 1px solid chocolate;
         }
         .venueTable {
           text-align: center;
@@ -85,6 +85,11 @@ function getClientHtml(domain) {
         @media only screen and (max-width: 840px) {
           th, td {
             font-size: 2vw;
+          }
+          .venueTable {
+            th, td {
+              padding: 0.5vw;
+            }
           }
           .scheduleTable {
             .tableHeadingsRow {
