@@ -10,12 +10,44 @@ function getClientHtml(domain) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Weekly Schedule</title>
       <style>
+        table {
+          td, th {border: 1px solid black;}
+          border: 1px solid black;
+        }
+        .venueTable {
+          text-align: center;
+        }
+        .scheduleTable {
+          .tableHeadingsRow {
+            td {font-style: italic; padding-left: 12px; padding-right: 12px;}
+          }
+          .slotsRow {
+            text-align: center;
+            td {font-family: Consolas,"courier new";}
+          }
+        }
+        .moduleTable {
+          .tableHeadingsRow {
+            td {font-style: italic;}
+          }
+        }
         button {
           font-family: Consolas,"courier new";
           font-size: 150%;
           font-weight: bold;
         }
         @media only screen and (max-width: 840px) {
+          th, td {
+            font-size: 1.75vw;
+          }
+          .scheduleTable {
+            .tableHeadingsRow {
+              td {white-space: nowrap; padding-left: 1.5vw; padding-right: 1.5vw;}
+            }
+            .slotsRow {
+              td {font-weight: bold;}
+            }
+          }
           button {
             font-size: 2.85vw;
           }
@@ -31,14 +63,14 @@ function getClientHtml(domain) {
         <button style="flex: 1;" onclick="ws.send(4)">Chem Lab 2</button>
       </div>
       <div id="the_output" height="90%" width="100%">
-        <iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>
       </div>
       <script>
         const ws = new WebSocket("wss://${domain}/");
         const output = document.querySelector("#the_output");
         const write = (msg) => {
-          output.innerHTML = '<iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>';
-          document.querySelector("#the_iframe").contentWindow.document.write(msg);
+          //output.innerHTML = '<iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>';
+          //document.querySelector("#the_iframe").contentWindow.document.write(msg);
+          output.innerHTML = msg;
         }
         ws.onmessage = (e) => write(e.data);
       </script>
