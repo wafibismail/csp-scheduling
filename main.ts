@@ -19,7 +19,7 @@ function getClientHtml(domain) {
         }
         .scheduleTable {
           .tableHeadingsRow {
-            td {font-style: italic; padding-left: 12px; padding-right: 12px; font-family: Arial, Helvetica, sans-serif;}
+            td {font-style: italic; padding-left: 12px; padding-right: 12px; font-family: "Times New Roman"; font-size: 125%;}
           }
           .slotsRow {
             text-align: center;
