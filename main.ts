@@ -10,9 +10,6 @@ function getClientHtml(domain) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Weekly Schedule</title>
       <style>
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-        }
         table {
           td, th {border: 1px solid black;}
           border: 1px solid black;
@@ -22,7 +19,7 @@ function getClientHtml(domain) {
         }
         .scheduleTable {
           .tableHeadingsRow {
-            td {font-style: italic; padding-left: 12px; padding-right: 12px;}
+            td {font-style: italic; padding-left: 12px; padding-right: 12px; font-family: Arial, Helvetica, sans-serif;}
           }
           .slotsRow {
             text-align: center;
