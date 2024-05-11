@@ -1,38 +1,58 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      code {
-        font-family: Consolas,"courier new";
-        white-space: nowrap;
-        padding: 2px;
+      table {
+        td, th {border: 1px solid black;}
+        border: 1px solid black;
+      }
+      .venueTable {
+        text-align: center;
+      }
+      .scheduleTable {
+        .tableHeadingsRow {
+          td {font-style: italic; padding-left: 12px; padding-right: 12px;}
+        }
+        .slotsRow {
+          text-align: center;
+          td {font-family: Consolas,"courier new";}
+        }
+      }
+      .moduleTable {
+        .tableHeadingsRow {
+          td {font-style: italic;}
+        }
+        .slotsRow {
+          td {font-family: Consolas,"courier new";}
+        }
       }
     </style>
   </head>
   <body>
     <div align=center>
       <p>
-        <code><br />
-          VENUE:Chem Lab 1 | Equipment:chem | Capacity=30<br />
-          <br />
-          TIME|..8:10..|.10-12..|.12-14..|.14-16..|.16-18..|.18-20..|<br />
-          DAY |========|========|========|========|========|========|<br />
-          Sun |________|________|________|________|________|________|<br />
-          Mon |C11|Dr.C|________|________|________|________|________|<br />
-          Tue |________|________|________|________|________|________|<br />
-          Wed |________|C13|Dr.C|________|________|________|________|<br />
-          Thu |________|________|________|________|________|________|<br />
-          Fri |________|________|________|________|________|________|<br />
-          Sat |________|________|________|________|________|________|<br />
-          <br />
-          <br />
-          <br />
-          Modules<br />
-          <br />
-          Code | Name.................................<br />
-          ============================================<br />
-          .C11 | Chemistry Intro Lab Group A..........<br />
-          .C13 | Chemistry Intro Lab Group C..........
-        </code>
+        <table class=venueTable>
+          <tr><th colspan=4>Venue</th></tr>
+          <tr><td colspan=4>Chem Lab 1</td></tr>
+          <tr><th>Equipment</th><td>Chem</td><th>Capacity</th><td>30</td></tr>
+        </table>
+        <br />
+        <table class=scheduleTable>
+          <tr class=tableHeadingsRow><th>TIME/<br >DAY</th><td>08:00-10:00</td><td>10:00-12:00</td><td>12:00-14:00</td><td>14:00-16:00</td><td>16:00-18:00</td><td>18:00-20:00</td></tr>
+          <tr class="slotsRow"><th>Sun</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Mon</th><td>C11 | Dr.C</td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Tue</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Wed</th><td></td><td>C13 | Dr.C</td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Thu</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Fri</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Sat</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+        <br />
+        <table class=moduleTable>
+          <tr class=tableHeadingsRow><th>Code</th><td>Module</td></tr>
+          <tr class="slotsRow"><th>C11</th><td>Chemistry Intro Lab Group A</td></tr>
+          <tr class="slotsRow"><th>C13</th><td>Chemistry Intro Lab Group C</td></tr>
+        </table>
       </p>
     </div>
   </body>

@@ -1,50 +1,70 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      code {
-        font-family: Consolas,"courier new";
-        white-space: nowrap;
-        padding: 2px;
+      table {
+        td, th {border: 1px solid black;}
+        border: 1px solid black;
+      }
+      .venueTable {
+        text-align: center;
+      }
+      .scheduleTable {
+        .tableHeadingsRow {
+          td {font-style: italic; padding-left: 12px; padding-right: 12px;}
+        }
+        .slotsRow {
+          text-align: center;
+          td {font-family: Consolas,"courier new";}
+        }
+      }
+      .moduleTable {
+        .tableHeadingsRow {
+          td {font-style: italic;}
+        }
+        .slotsRow {
+          td {font-family: Consolas,"courier new";}
+        }
       }
     </style>
   </head>
   <body>
     <div align=center>
       <p>
-        <code><br />
-          VENUE:Lecture Theater | Equipment:None | Capacity=100<br />
-          <br />
-          TIME|..8:10..|.10-12..|.12-14..|.14-16..|.16-18..|.18-20..|<br />
-          DAY |========|========|========|========|========|========|<br />
-          Sun |________|________|________|________|________|________|<br />
-          Mon |M13|Mr.M|L02|Mr.L|________|M03|Mr.M|________|________|<br />
-          Tue |B01|Dr.B|M02|Mr.M|________|L01|Mr.L|M16|Dr.M|________|<br />
-          Wed |M12|Mr.M|A02|Dr.A|M15|Dr.M|________|________|________|<br />
-          Thu |C01|Dr.C|A01|Dr.A|M14|Dr.M|M01|Mr.M|________|________|<br />
-          Fri |________|________|________|________|________|________|<br />
-          Sat |________|________|________|________|________|________|<br />
-          <br />
-          <br />
-          <br />
-          Modules<br />
-          <br />
-          Code | Name.................................<br />
-          ============================================<br />
-          .A01 | Sociology and Anthropology 1.........<br />
-          .A02 | Sociology and Anthropology 2.........<br />
-          .B01 | Introduction to Biology..............<br />
-          .C01 | Introduction to Chemistry............<br />
-          .L01 | Linguistics 1........................<br />
-          .L02 | Linguistics 2........................<br />
-          .M01 | Mathematical Methods for Scientists 1<br />
-          .M02 | Mathematical Methods for Scientists 2<br />
-          .M03 | Introductory Calculus................<br />
-          .M12 | Combinatorics and Graph Theory.......<br />
-          .M13 | Multivariate Calculus................<br />
-          .M14 | Numerical Analysis...................<br />
-          .M15 | Real Analysis........................<br />
-          .M16 | Linear Algebra.......................
-        </code>
+        <table class=venueTable>
+          <tr><th colspan=4>Venue</th></tr>
+          <tr><td colspan=4>Lecture Theater</td></tr>
+          <tr><th>Equipment</th><td>None</td><th>Capacity</th><td>100</td></tr>
+        </table>
+        <br />
+        <table class=scheduleTable>
+          <tr class=tableHeadingsRow><th>TIME/<br >DAY</th><td>08:00-10:00</td><td>10:00-12:00</td><td>12:00-14:00</td><td>14:00-16:00</td><td>16:00-18:00</td><td>18:00-20:00</td></tr>
+          <tr class="slotsRow"><th>Sun</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Mon</th><td>M13 | Mr.M</td><td>L02 | Mr.L</td><td></td><td>M03 | Mr.M</td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Tue</th><td>B01 | Dr B</td><td>M02 | Mr.M</td><td></td><td>L01 | Mr.L</td><td>M16 | Dr.M</td><td></td></tr>
+          <tr class="slotsRow"><th>Wed</th><td>M12 | Mr.M</td><td>A02 | Dr.A</td><td>M15 | Dr.M</td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Thu</th><td>C01 | Dr.C</td><td>A01 | Dr.A</td><td>M14 | Dr.M</td><td>M01 | Dr.M</td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Fri</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="slotsRow"><th>Sat</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+        <br />
+        <table class=moduleTable>
+          <tr class=tableHeadingsRow><th>Code</th><td>Module</td></tr>
+          <tr class="slotsRow"><th>A01</th><td>Sociology and Anthropology 1</td></tr>
+          <tr class="slotsRow"><th>A02</th><td>Sociology and Anthropology 2</td></tr>
+          <tr class="slotsRow"><th>B01</th><td>Introduction to Biology</td></tr>
+          <tr class="slotsRow"><th>C01</th><td>Introduction to Chemistry</td></tr>
+          <tr class="slotsRow"><th>L01</th><td>Linguistics 1</td></tr>
+          <tr class="slotsRow"><th>L02</th><td>Linguistics 2</td></tr>
+          <tr class="slotsRow"><th>M01</th><td>Mathematical Methods for Scientists 1</td></tr>
+          <tr class="slotsRow"><th>M02</th><td>Mathematical Methods for Scientists 2</td></tr>
+          <tr class="slotsRow"><th>M03</th><td>Introductory Calculus</td></tr>
+          <tr class="slotsRow"><th>M12</th><td>Combinatorics and Graph Theory</td></tr>
+          <tr class="slotsRow"><th>M13</th><td>Multivariate Calculus</td></tr>
+          <tr class="slotsRow"><th>M14</th><td>Numerical Analysis</td></tr>
+          <tr class="slotsRow"><th>M15</th><td>Real Analysis</td></tr>
+          <tr class="slotsRow"><th>M16</th><td>Linear Algebra</td></tr>
+        </table>
       </p>
     </div>
   </body>
