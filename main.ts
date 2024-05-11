@@ -10,6 +10,9 @@ function getClientHtml(domain) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Weekly Schedule</title>
       <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
         table {
           td, th {border: 1px solid black;}
           border: 1px solid black;
@@ -68,8 +71,6 @@ function getClientHtml(domain) {
         const ws = new WebSocket("wss://${domain}/");
         const output = document.querySelector("#the_output");
         const write = (msg) => {
-          //output.innerHTML = '<iframe id="the_iframe" height="92.5%" width="100%" title="Weekly Schedule"></iframe>';
-          //document.querySelector("#the_iframe").contentWindow.document.write(msg);
           output.innerHTML = msg;
         }
         ws.onmessage = (e) => write(e.data);
